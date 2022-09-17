@@ -1,0 +1,27 @@
+
+.mainnav {
+
+    .navtop {
+       
+        
+        .textnav{
+            margin-left: 1rem;
+            font-size: 15px
+            
+        }
+
+    }
+}
+
+.meun{
+    right: 0;
+    background-color: $title-color!important;
+    .text-item{
+        color: $nav-color;
+        text-align: right;
+        &:hover{
+            background-color: $span-text;
+            color: $title-color;
+        }
+    }
+}
